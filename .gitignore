@@ -1,0 +1,41 @@
+# 3d-party dependencies
+app/vendor/
+node_modules/
+
+# CSS output
+app/style.css
+app/style.css.map
+app/fonts/
+app/img/
+
+# Jade output
+app/jadeTemplates.js
+.temp-jade/
+
+# dist output
+dist/
+release/
+aop-tactic-workflow.tar.bz2
+
+# Code coverage reports
+coverage/
+test-results/
+test-results.xml
+test/PhantomJS_*.xml
+
+# Test files
+test/functional/ocOverrides.js
+
+# ========== ide files ==========
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# Other funny files
+.DS_Store
+
+TESTS-*.xml
+typings
+
+.sonar

@@ -1,0 +1,44 @@
+{
+  "name": "projecttest",
+  "version": "1.0.0",
+  "description": "test project",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Audrey Bennouar",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.11.1",
+    "bower": "^1.7.9",
+    "connect-modrewrite": "^0.9.0",
+    "gulp": "^3.9.1",
+    "gulp-connect": "^4.0.0",
+    "gulp-eslint": "^2.0.0",
+    "gulp-protractor": "^2.3.0",
+    "eslint": "^2.8.0",
+    "eslint-plugin-angular": "^1.0.0",
+    "eslint-plugin-jasmine": "^1.8.1",
+    "eslint-plugin-lodash": "^1.8.2",
+    "eslint-plugin-protractor": "^1.5.0",
+    "del": "^1.2.0",
+    "jasmine-core": "^2.3.4",
+    "jasmine-reporters": "^2.0.7",
+    "karma": "^0.13.22",
+    "karma-coverage": "^1.0.0",
+    "karma-jasmine": "^1.0.2",
+    "karma-junit-reporter": "^1.0.0",
+    "karma-ng-html2js-preprocessor": "^0.1.2",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "node-karma-wrapper": "^0.3.0",
+    "phantomjs": "^2.1.7",
+    "protractor-http-mock": "^0.1.16",
+    "protractor-jasmine2-screenshot-reporter": "git+https://github.com/Juandeldesierto/protractor-jasmine2-screenshot-reporter.git",
+    "yargs": "^3.20.0",
+    "log4js": "^0.6.26",
+    "portfinder": "^0.4.0"
+  },
+  "devDependencies": {
+    "gulp-angular-protractor": "^0.1.1"
+  }
+}
